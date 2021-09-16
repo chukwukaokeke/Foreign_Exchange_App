@@ -27,6 +27,7 @@ json_object = json.loads(response)  # covert json object to dictionary
 
 converted = json_object["amount"]
 
+
 table = PrettyTable()
 table.field_names = ["Amount", "From", "To", "Converted"]
 table.add_row([amount, base, convert, converted])
