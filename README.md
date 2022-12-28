@@ -1,3 +1,3 @@
-# Foreign_Exchange_App
+# Foreign Exchange App
 
 This Python script uses an API to perform currency conversions. It prompts the user for three pieces of information: the base currency (the currency they have), the amount of the base currency, and the target currency (the currency they want to convert to). It then sends a request to the API and parses the response to retrieve the converted amount. Finally, it prints a table with the original amount, the base currency, the target currency, and the converted amount. This script can be useful for performing quick currency conversions and demonstrates how to use APIs and parse JSON data in Python.
